@@ -1,0 +1,16 @@
+# Metro IO demo
+# Welcome to CircuitPython 2.2.0 :)
+
+import board
+import digitalio
+import time
+led = digitalio.DigitalInOut(board.A1)
+led.direction = digitalio.Direction.OUTPUT
+
+while True:
+    led.value = True
+    print("On")
+    time.sleep(0.5)
+    led.value = False
+    print("Off")
+    time.sleep(0.5)
