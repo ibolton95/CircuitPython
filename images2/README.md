@@ -3,3 +3,6 @@
 
 
 <img src="ServoCapTouch.jpg" width="400">
+
+
+<img src="LcdCapTouch.jpg" width="400">

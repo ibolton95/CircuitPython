@@ -10,3 +10,9 @@ In this assignment, I wired up a servo using capacitive touch, which involved a 
 
 
 <img src="./images2/ServoCapTouch.jpg" width="400"> 
+
+## CircuitPython LCD
+In this assignment, I wired an LCD using capacitive touch: when one wire was touched, the counting direction was set to positive or negative, and when the other wire was touched, the count was increased or decreased (accroding to wire 1) by a magnitude of 1. While writing the code, I had a lot of trouble with the i2c file, as it did not process correctly within my code. I eventually wiped my Metro Express and started over, which helped, and then I had to remember to change the i2cInterface() to contain 0x3f rather than 0x27. I also had instances of my computer not registering my Metro Express when I plugged it in, which made it hard to restart, but switching the port that I plug it into has helped so far, so hopefully I don't run into this problem much more, as it is very hard to solve any other way. When I finally had my code working and my LCD running the code, I had trouble pushing my code to my GitHub repository, as I received the message that my repository could not be accessed after I committed the code and tried to push it. To fix this, I had to...
+
+
+<img src="./images2/LcdCapTouch.jpg" width="400"> 
