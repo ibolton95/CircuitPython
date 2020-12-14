@@ -1,7 +1,7 @@
 # CircuitPython
 
 ## Connecting to Github LED Blink
-I am figuring out coding for the metroexpress, but making an LED Blink was relatively simple. The bigger challenge is just remembering the process of commiting and pushing the code into git, as I accidently made a duplicate CircuitPython clone in the process. The code for this assignment (and all future assignments) is not in the readme, but it's a file in the repository.
+I am figuring out coding for the metroexpress, but making an LED Blink was relatively simple. The bigger challenge is just remembering the process of commiting and pushing the code into git, as I accidently made a duplicate CircuitPython clone in the process. The code for this assignment (and all future assignments) is not in the README, it's a file in the repository.
 
 <img src="./images2/led_blink_green.jpg" width="200"> 
 
