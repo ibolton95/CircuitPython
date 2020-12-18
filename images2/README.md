@@ -6,3 +6,6 @@
 
 
 <img src="LcdCapTouch.jpg" width="400">
+
+
+<img src="Photointerrupter.jpg" width="400">
