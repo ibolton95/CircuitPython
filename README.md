@@ -16,3 +16,6 @@ In this assignment, I wired an LCD using capacitive touch: when one wire was tou
 
 
 <img src="./images2/LcdCapTouch.jpg" width="400"> 
+
+## CircuitPython Photointerrupter
+In this assignment, I wired a photointerrupter and had it keep track of the number of times I interrupted it. My LCD screen displayed the number of interrupts along with my serial monitor, which outputted the number of interrupts every 4 seconds. There was a delay on the counter so that it could register individual interrupts. I learned more about the str(counter) function, which is a string required for displaying a variable along with words. My only struggles were running into the "remote contains work that I do not have locally" issue again (which I solved in the last assignment) and a deprecation notice when I typed in my GitHub info into Termux. I received a notice from GitHub that "basic authentication using a password to Git is deprecated and will soon no longer work." However, it worked after I had to pull my changes locally to solve the previous issue, so maybe it was just an error related to that issue. Either way, I'm interested to see what will come out of this issue, as I am always required to sign into my GitHub account when I push changes to GitHub from Termux.
