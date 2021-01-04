@@ -44,3 +44,6 @@ This assignment was a follow up to the previous; there was a set code that was s
 
 
 <img src="./images2/FancyLED2.jpg" width="400"> 
+
+
+<img src="./images2/FancyLED3.png" width="400"> 
