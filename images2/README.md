@@ -9,3 +9,12 @@
 
 
 <img src="Photointerrupter.jpg" width="400">
+
+
+<img src="RGBwiring1.jpg" width="400">
+
+
+<img src="RGBwiring2.jpg" width="400">
+
+
+<img src="RGBwiring3.jpg" width="400">
