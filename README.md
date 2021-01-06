@@ -24,7 +24,7 @@ In this assignment, I wired a photointerrupter and had it keep track of the numb
 <img src="./images2/Photointerrupter.jpg" width="400"> 
 
 ## Classes, Objects, and Modules
-In this assignment, I learned how to create classes with objects, modules, and specific properties. I had to make a class of RGB LEDs that supported a code that caused the LEDs to cycle through different colors, which required the self argument, which refers an object to itself when writing specific methods/modules. I had to learn to write self.r, self.g, and self.b and that False is on and True is off because the led pins are going to ground. The wiring was a little chaotic so I am including three pictures of the wiring instead of a written diagram.
+In this assignment, I learned how to create classes with objects, modules, and specific properties. I had to make a class of RGB LEDs (rgb.py) that supported a code that caused the LEDs to cycle through different colors (rgbshine.py), which required the self argument, which refers an object to itself when writing specific methods/modules. I had to learn to write self.r, self.g, and self.b and that False is on and True is off because the led pins are going to ground. The wiring was a little chaotic so I am including three pictures of the wiring instead of a written diagram.
 
 
 
@@ -38,4 +38,12 @@ In this assignment, I learned how to create classes with objects, modules, and s
 <img src="./images2/RGBwiring3.jpg" width="400"> 
 
 ## FancyLED
-This assignment was a follow up to the previous; there was a set code that was supposed to make LEDs "alternate, blink, chase, and sparkle" and I then created a FancyLED class that allowed the set code to work. I learned about a bracketed list, which, in this case, puts the "self" statement for 3 LEDs into 1 statement. I also learned about the "%2" action, which divides a number by 2 and then looks at the remainder, which can be helpful to delegate different results for odd and even numbers. I also learned about the range function, which states the number of times the code should repeat (starting from 0 and going to one less than the max value). I then discovered the randrange method, which allowed me to generate random numbers - found in the "random" library. Overall, I improved my understanding of classes from the previous assignment, but I am still figuring them out. However, I eventually figured out this assignment (with some help) and was able to create a successful class.
+This assignment was a follow up to the previous; there was a set code (LEDdance.py) that was supposed to make LEDs "alternate, blink, chase, and sparkle" and I then created a FancyLED class (FancyLED.py) that allowed the set code to work. I learned about a bracketed list, which, in this case, puts the "self" statement for 3 LEDs into 1 statement. I also learned about the "%2" action, which divides a number by 2 and then looks at the remainder, which can be helpful to delegate different results for odd and even numbers. I also learned about the range function, which states the number of times the code should repeat (starting from 0 and going to one less than the max value). I then discovered the randrange method, which allowed me to generate random numbers - found in the "random" library. Overall, I improved my understanding of classes from the previous assignment, but I am still figuring them out. However, I eventually figured out this assignment (with some help) and was able to create a successful class.
+
+<img src="./images2/FancyLED1.jpg" width="400"> 
+
+
+<img src="./images2/FancyLED2.jpg" width="400"> 
+
+
+<img src="./images2/FancyLED3.png" width="400"> 

@@ -18,3 +18,13 @@
 
 
 <img src="RGBwiring3.jpg" width="400">
+
+
+
+<img src="FancyLED1.jpg" width="400">
+
+
+<img src="FancyLED2.jpg" width="400">
+
+
+<img src="FancyLED3.png" width="400">
