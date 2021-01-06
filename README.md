@@ -1,7 +1,9 @@
 # CircuitPython
 
 Codes created on Caret
+
 Serial Monitor is Beagle Term
+
 Connected to GitHub through Termux
 
 ## Connecting to Github LED Blink
