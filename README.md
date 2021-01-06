@@ -2,7 +2,7 @@
 
 Codes created on Caret
 
-Serial Monitor is Beagle Term
+Used Beagle Term for Serial Monitor
 
 Connected to GitHub through Termux
 
@@ -32,10 +32,11 @@ In this assignment, I wired a photointerrupter and had it keep track of the numb
 ## CircuitPython Distance Sensor
 In this assignment, I wired an HC-SR04 distance sensor to set the color on the Metro Express's neopixel. The color changed between red, pink, blue, cyan, and green depending on an object's distance from the sensor. I learned that an (int) or integer function will always convert a number with decimals (5.8) to the first integer (5). I had to do some mth, as the difference between the max and min distance (35-5=30) had to be divided by four (30/4=7.5) because there were four changes between colors, and, to properly transition the colors, as the object's distance from the sensor increases, the neopixel first had to be made red with an increasing amount of blue, then blue with a decreasing amount of red, then blue with an increasing amount of green, then green with a decreasing amount of blue. For each range, the distance had to be subtracted by thw hightest possible distance from the previous range to ensure that the data range stayed between 0 and 255. I also learned that the dot.fill((red, green, blue)) statement is needed to create a loop, since the previous "if" statements only creates new conditions within the code and doesn't create a loop. Overall, the process went relatively well after I figured out the above pieces of information, except for the fact that I had some trouble with using pins 3 and 4 on my Metro Express for my distance sensor and had to change them to pins 5 and 6.
 
+
+<img src="./images2/DistanceSensor.jpg" width="400"> 
+
 ## Classes, Objects, and Modules
 In this assignment, I learned how to create classes with objects, modules, and specific properties. I had to make a class of RGB LEDs (rgb.py) that supported a code that caused the LEDs to cycle through different colors (rgbshine.py), which required the self argument, which refers an object to itself when writing specific methods/modules. I had to learn to write self.r, self.g, and self.b and that False is on and True is off because the led pins are going to ground. The wiring was a little chaotic so I am including three pictures of the wiring instead of a written diagram.
-
-
 
 
 <img src="./images2/RGBwiring1.jpg" width="400"> 
